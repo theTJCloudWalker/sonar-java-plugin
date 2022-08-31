@@ -1,0 +1,11 @@
+{
+  "title": "Avoid comparsion between float and 0",
+  "type": "Bug",
+  "status": "ready",
+  "tags": [
+    "bugs",
+    "gandalf",
+    "magic"
+  ],
+  "defaultSeverity": "Critical"
+}

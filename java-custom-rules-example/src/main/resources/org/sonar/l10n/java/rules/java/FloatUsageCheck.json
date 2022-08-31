@@ -1,0 +1,13 @@
+{
+  "title": "Floating point numbers should not be testd for equality directly",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "style"
+  ],
+  "defaultSeverity": "Major"
+}
