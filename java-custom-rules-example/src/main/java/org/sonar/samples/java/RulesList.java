@@ -38,8 +38,7 @@ public final class RulesList {
 //  /**
 //   * These rules are going to target TEST code only
 //   */
-//  public static List<Class<? extends JavaCheck>> getJavaTestChecks() {
-//    return Collections.unmodifiableList(Arrays.asList(
-//      NoIfStatementInTestsRule.class));
-//  }
+  public static List<Class<? extends JavaCheck>> getJavaTestChecks() {
+    return Collections.unmodifiableList(Arrays.asList());
+  }
 }

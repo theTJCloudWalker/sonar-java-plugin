@@ -23,6 +23,8 @@ public class MyJavaFileCheckRegistrar implements CheckRegistrar {
    */
   @Override
   public void register(RegistrarContext registrarContext) {
+
+
     // Call to registerClassesForRepository to associate the classes with the correct repository key
     registrarContext.registerClassesForRepository(MyJavaRulesDefinition.REPOSITORY_KEY, checkClasses(), testCheckClasses());
   }
